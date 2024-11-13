@@ -46,6 +46,7 @@
 }
 
 /* KLEUR */
+/* main colors */
 .main-color-green{
   background-color: #4e7141;
 }
@@ -62,6 +63,37 @@
   background-color: #491b02;
   color: #f9e9c2;
 }
+/* extra colors */
+.darkgreen{
+  background-color: #3c593e;
+}
+
+.text-off-white{
+  background-color: #f7f7f7;
+}
+
+.text-darkgreen{
+  background-color: #2C402D;
+  color: #f9e9c2;
+}
+
+.darkgreen{
+ background-color: #3c593e;
+}
+
+.error-red{
+  background-color: #ff0000;
+}
+/* button colors */
+.button-active-orange{
+  background-color: #ff8d06;
+}
+
+.button-hover-orange{
+  background-color: #ff8d06;
+}
+
+
 
 h1, h2, h3, h4, h5, h6, p{
   font-family: "poppins", sans-serif;
