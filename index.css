@@ -78,3 +78,13 @@ h2 {
 h3, h4, h5, h6 {
   font-family: "poppins-medium", sans-serif;
 }
+
+button{
+  margin-top: 1rem;
+  background-color: #4e7141;
+  color: #f9e9c2;
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 4rem;
+  border: none;
+}
