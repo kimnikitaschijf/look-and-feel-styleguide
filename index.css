@@ -66,3 +66,15 @@
 h1, h2, h3, h4, h5, h6, p{
   font-family: "poppins", sans-serif;
 }
+
+h1 {
+  font-family: "poppins-black", sans-serif;
+}
+
+h2 {
+  font-family: "poppins-bold", sans-serif;
+}
+
+h3, h4, h5, h6 {
+  font-family: "poppins-medium", sans-serif;
+}
