@@ -62,3 +62,7 @@
   background-color: #491b02;
   color: #f9e9c2;
 }
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "poppins", sans-serif;
+}
