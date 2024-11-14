@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 /* Schrijf hier de verschillende stijlen, die gedeeld gaan
    worden door jullie projecten */
 
@@ -26,9 +25,82 @@
 
 /* Formulier elementen */
 
-/* Buttons */
-.SignUpButton {
-
+/* KLEUR */
+/* main colors */
+.main-color-green{
+  background-color: #4e7141;
 }
-=======
->>>>>>> Stashed changes
+
+.main-color-beige{
+  background-color: #f9e9c2;
+}
+
+.main-color-orange{
+  background-color: #ff8d06;
+}
+
+.main-color-brown{
+  background-color: #491b02;
+  color: #f9e9c2;
+}
+/* extra colors */
+.darkgreen{
+  background-color: #3c593e;
+}
+
+.text-off-white{
+  background-color: #f7f7f7;
+}
+
+.text-darkgreen{
+  background-color: #2C402D;
+  color: #f9e9c2;
+}
+
+.darkgreen{
+ background-color: #3c593e;
+}
+
+.error-red{
+  background-color: #ff0000;
+}
+/* button colors */
+.button-active-orange{
+  background-color: #ff8d06;
+}
+
+.button-hover-orange{
+  background-color: #ff8d06;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, p{
+  font-family: "poppins", sans-serif;
+}
+
+h1 {
+  font-family: "poppins-black", sans-serif;
+}
+
+h2 {
+  font-family: "poppins-bold", sans-serif;
+}
+
+h3, h4, h5, h6 {
+  font-family: "poppins-medium", sans-serif;
+}
+
+button{
+  margin-top: 1rem;
+  background-color: #4e7141;
+  color: #f9e9c2;
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 4rem;
+  border: none;
+}
+
+img{
+  width: 25%;
+}
