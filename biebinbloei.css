@@ -21,11 +21,11 @@ body {
   /* Fonts */
   --font-header: "Poppins-Black", sans-serif;
   --font-sub-header: 'Poppins-Bold', sans-serif;
-  --font-paragraph: 'Poppins-Medium', sans-serif;
+  --font-paragraph: 'Poppins-Regular', sans-serif;
   --font-link: 'Poppins-Regular', sans-serif;
 
   /* Decoration */
-  --rounded: 2em;
+  --rounded: 2em; /* Gebruiken voor ronde vormen */
 }
 
 *:focus-visible {
@@ -64,6 +64,12 @@ body {
 }
 
 /* Kleuren */
+.kleur-beschrijving p {
+  margin: 0;
+  color: rgb(173, 173, 173);
+  font-size: 0.9em;
+}
+
 .color1 {
   background-color: #4e7141;
 }
@@ -85,7 +91,8 @@ body {
 }
 
 .color6 {
-  background-color: #f7f7f7;
+  background-color: #fefefe;
+  border: 1px solid rgb(205, 205, 205);
 }
 
 .color7 {
@@ -250,6 +257,10 @@ legend {
   gap: 1em;
 }
 
+#knoppen p {
+  margin: -0.9em 0em 1em 0em;
+}
+
 /* Knoppen in alle kleuren */
 
 /* Linkje */
@@ -382,7 +393,7 @@ a.btn-beige:hover {
 }
 
 /* Submit knop */
-button {
+button.btn-verzenden {
   align-self: baseline;
   background-color: var(--lightgreen);
   color: var(--beige);
@@ -399,10 +410,15 @@ button {
   width: 9em;
 }
 
-button:hover {
+button.btn-verzenden:hover {
   background-color: var(--orange);
   transition: transform ease-in-out .2s;
   transform: scale(1.05);
   padding: 0.7em 1.4em;
   cursor: pointer;
+}
+
+button.btn-verzenden img {
+  align-items: center;
+  width: 0.9em;
 }
