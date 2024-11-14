@@ -22,19 +22,19 @@ https://github.com/kimnikitaschijf/look-and-feel-styleguide/blob/a201655de051f82
 https://github.com/kimnikitaschijf/look-and-feel-styleguide/blob/a201655de051f823c747a9116bd6076be658459c/biebinbloei.css#L127-L168
 
 ## Formulieren
-De formulieren hebben een styling gekregen in de kleuren en lettertypes van de huisstijl. De volgende elementen hebben we gestyled: 'Form', 'Input', 'Fieldset' & 'Legend'. 
+De formulieren hebben een styling gekregen in de kleuren en lettertypes van het huisstijl. De volgende elementen hebben we gestyled: 'Form', 'Input', 'Fieldset' & 'Legend'. 
 
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/4e1656df-8cb0-4027-a8b8-32f16744b601">
 
 ## Knoppen
-De knoppen hebben we opgedeeld in 4 verschillende kleuren: Bruin, oranje, beige en groen. Deze knoppen hebben we allemaal doormiddel van een class los een styling gegeven. Op deze manier kan je de buttons gemakkelijk gebruiken op iedere pagina. Ook hebben linkjes een styling gegeven. Zodra je een 'a' zonder class gebruikt zal hij automatisch de styling van de link overnemen.
+De knoppen hebben we opgedeeld in 4 verschillende kleuren: Bruin, oranje, beige en groen. Deze knoppen hebben we allemaal doormiddel van een class los een styling gegeven. Op deze manier kan je de buttons gemakkelijk gebruiken op iedere pagina. Ook hebben linkjes een aparte styling gegeven. Zodra je een 'a' zonder class gebruikt zal hij automatisch de styling van de link overnemen.
 
 <img width="180" alt="image" src="https://github.com/user-attachments/assets/c26d6a08-0937-4d3b-bdc4-8558908b3a06">
 
 ## Afspraken/overeenkomsten
 Dit zijn de afgesproken regels m.b.t de stylesheet en het documenteren van classes in ieders individuele document:
 1. Als je iets heb aangepast in de stylesheet overleg eerst met je teamleden voordat je deze code pusht naar Github. Dit zorgt ervoor dat je conflicten voorkomt.
-2. Zodra je een commit wilt pushen, schrijf je kort & duidelijk welke werkzaamheden je hebt uitgevoerd met je naam erachter. Zodat er overzichtelijk wordt weergegeven wie welke commits heeft geschreven.
+2. Zodra je een commit wilt pushen, schrijf je kort & duidelijk welke werkzaamheden je hebt uitgevoerd met je naam erachter. Op deze manier zorg je ervoor dat je bij de commits overzichtelijk wordt weergegeven wie welke commits heeft geschreven.
 3. Iedereen luistert naar elkaar en respecteert elkaars mening.
 
 ## -Licentie
