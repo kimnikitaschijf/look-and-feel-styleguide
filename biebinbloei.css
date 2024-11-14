@@ -139,7 +139,18 @@ a {
 }
 
 a:hover {
-  color:#ff8d06;
+  color: #ff8d06;
+}
+
+button {
+  margin-top: 1rem;
+  background-color: #4e7141;
+  color: #f9e9c2;
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 4rem;
+  border: none;
+  transition: transform 0.3s ease-in-out;
 }
 
 /* Knop */
