@@ -15,12 +15,6 @@ Over de hele website heen wordt er gebruik gemaakt van het font 'Poppins'. De fo
 <img width="146" alt="image" src="https://github.com/user-attachments/assets/034ea7ce-1514-42ff-87f1-8c04df990a22">
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/64404628-3c68-459f-8f1c-2d72071c9c7b">
 
-- Font-faces
-https://github.com/kimnikitaschijf/look-and-feel-styleguide/blob/a201655de051f823c747a9116bd6076be658459c/biebinbloei.css#L36-L64
-
-- Fontsizes
-https://github.com/kimnikitaschijf/look-and-feel-styleguide/blob/a201655de051f823c747a9116bd6076be658459c/biebinbloei.css#L127-L168
-
 ## Formulieren
 De formulieren hebben een styling gekregen in de kleuren en lettertypes van het huisstijl. De volgende elementen hebben we gestyled: 'Form', 'Input', 'Fieldset' & 'Legend'. 
 
