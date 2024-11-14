@@ -72,15 +72,15 @@
       <h2>Typografie</h2>
       <p>Bij het onderdeel typografie worden fonts en groottes gedemonstreerd.</p>
 
-      <h1 class="">Kop 1</h1>
-      <h2 class="">Kop 2</h2>
-      <h3 class="">Kop 3</h3>
-      <h4 class="">Kop 4</h4>
-      <h5 class="">Kop 5</h5>
-      <h6 class="">Kop 6</h6>
+      <h1>Kop 1</h1>
+      <h2>Kop 2</h2>
+      <h3>Kop 3</h3>
+      <h4>Kop 4</h4>
+      <h5>Kop 5</h5>
+      <h6>Kop 6</h6>
 
-      <p class="">Simpele alinea's</p>
-      <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      <p>Simpele alinea's</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
       consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -99,7 +99,9 @@
         <li>En nog een item</li>
       </ol>
 
-      <table class="">
+    <!-- Niet van toepassing -->
+      
+    <!-- <table class="">
         <thead>
           <tr>
             <th>Tabelkop</th>
@@ -140,83 +142,122 @@
             <td>Tabeldata</td>
           </tr>
         </tbody>
-      </table>
+      </table> -->
 
     </section>
 
+    <!-- Formulieren -->
 
     <section id="formulieren">
 
       <h2>Formulier elementen</h2>
       <p>Bij het onderdeel formulier elementen worden input, radio, checkbox en buttons gedemonstreerd.</p>
 
-      <form class="">
-        <label class="">
-          Text: 
-          <input type="text" class="">
+      <form>
+
+        <!-- Voornaam -->
+        <label>Voornaam 
+          <input type="text" placeholder="Voornaam">
         </label>
 
-        <fieldset class="">
-          <legend class="">Radio options:</legend>
+        <!-- Achternaam -->
+        <label>Achternaam
+          <input type="text" placeholder="Achternaam">
+        </label>
+        
+        <!-- E-mailadres -->
+        <label>E-mailadres
+          <input type="text" placeholder="E-mailadres">
+        </label>
+        
+        <!-- Telefoonnummer -->
+        <label>Telefoonnummer
+          <input type="text" placeholder="Telefoonnummer">
+        </label>
 
-          <label class="">
+        <!-- Radiobutton formulier -->
+        <fieldset class="radiobutton">
+          <legend>Radio options:</legend>
+
+          <!-- Radio optie 1 -->
+          <label>
             <input type="radio" name="radio-options" value="option 1" checked class="">
             Option 1
           </label>
 
-          <label class="">
+          <!-- Radio optie 2 -->
+          <label>
             <input type="radio" name="radio-options" value="option 2" class="">
             Option 2
           </label>
 
-          <label class="">
+          <!-- Radio optie 3 -->
+          <label>
             <input type="radio" name="radio-options" value="option 3" class="">
             Option 3
           </label>
         </fieldset>
         
-        <fieldset class="">
-          <legend class="">Checkbox</legend>
+        <!-- Radiobutton formulier -->
+        <fieldset class="checkbox">
+          <legend>Checkbox</legend>
 
-          <label class="">
+          <!-- Checkbox 1 -->
+          <label>
             <input type="checkbox" name="checkbox-1" checked class="">
             Checkbox 1
           </label>
 
-          <label class="">
+          <!-- Checkbox 2 -->
+          <label>
             <input type="checkbox" name="checkbox-2" class="">
             Checkbox 2
           </label>
 
-          <label class="">
+          <!-- Checkbox 3 -->
+          <label>
             <input type="checkbox" name="chekcbox-3" class="">
             Checkbox 3
           </label>
         </fieldset>
-
-        <label class="">
-          Search: 
-          <input type="search" class="">
-        </label>
         
-        <label class="">
-          Tel: 
-          <input type="tel" class="">
-        </label>
-
-        <label class="">
-          Range: 
-          <input type="range" class="">
-        </label>
-
-        <input type="submit" value="Submit button" class="">
+        <!-- Verzenden knop -->
+        <input type="submit" value="Verzenden" class="">
         
-        <button type="button" class="">Aanmelden</button>
-        <button type="button" class="">Verzenden</button>
-        <button type="button" class="">Meer</button>
-      </form>
+      
+      </form>  
+      
+      <!-- Belangrijke knoppen -->
+      <section id="knoppen">
+
+        <h2>Knoppen</h2>
+        <p>Hier staan alle soorten knoppen bij elkaar.</p>
+
+        <!-- Knop oranje -->
+         <a href="#" class="btn-oranje">Knop oranje<img src="assets/icon-right.svg" alt=""></a>  
+         
+         <!-- Knop bruin -->
+        <a href="#" class="btn-bruin">Knop bruin<img src="assets/icon-right.svg" alt=""></a>
+
+        <!-- Knop groen -->
+        <a href="#" class="btn-groen">Knop groen<img src="assets/icon-right.svg" alt=""></a>
+
+        <!-- Knop beige -->
+        <a href="#" class="btn-beige">Knop bruin
+
+         <svg class="icon-right" width="16" height="18" viewbox="0 0 16 18" fill="none"
+           xmlns="http://www.w3.org/2000/svg">
+           <path
+             d="M15 7.26795C16.3333 8.03775 16.3333 9.96225 15 10.7321L3 17.6603C1.66667 18.4301 -8.94676e-07 17.4678 -8.27378e-07 15.9282L-2.21695e-07 2.0718C-1.54397e-07 0.532196 1.66667 -0.430055 3 0.339746L15 7.26795Z"
+             fill="#4e7141" />
+         </svg>
+        
+        </a>
+
+      </section>
     
     </section>
+
 <!-- 
     <section>
       <h2>Beeld</h2>
@@ -229,12 +270,7 @@
     <section>
       <h2>Media - Video Player</h2>
       <img src="assets/harry blij.gif" alt="">
-    </section>
-
-    
-
-
-   En eventueel meer categorieën -->
+    </section> -->
 
   </body>
 </html>

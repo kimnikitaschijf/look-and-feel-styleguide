@@ -11,7 +11,7 @@ body {
   --brown: #491b02;
   --darkgreen: #3c593e;
 
-  --text-off-white: #f7f7f7;
+  --text-off-white: #fefefe;
   --text-darkgreen: #2C402D;
   --error-red: #ff0000;
 
@@ -23,10 +23,17 @@ body {
   --font-sub-header: 'Poppins-Bold', sans-serif;
   --font-paragraph: 'Poppins-Medium', sans-serif;
   --font-link: 'Poppins-Regular', sans-serif;
+
+  /* Decoration */
+  --rounded: 2em;
 }
 
+*:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--orange);
+}
 
-/* Fonts importeren */
+/* @font-face (typografie) */
 @font-face {
   font-family: 'Poppins-Black';
   src: url(./fonts/Poppins-Black.ttf) format('truetype');
@@ -56,7 +63,7 @@ body {
 
 }
 
-/* heading elementen */
+/* Heading elements */
 h1 {
   font-size: clamp(2.1875rem, 1.9669rem + 1.1765vw, 3.4375rem);
   line-height: clamp(1.5, 4vw, 2);
@@ -94,13 +101,14 @@ h6 {
   font-family: var(--font-header);
 }
 
+/* Paragraph text element */
 p {
   font-size: clamp(1rem, 1rem + 0vw, 1rem);
-  ;
   line-height: 1.5em;
   font-family: var(--font-paragraph);
 }
 
+/* List elements */
 ul {
   font-size: clamp(1rem, 1rem + 0vw, 1rem);
   ;
@@ -114,39 +122,175 @@ ol {
   font-family: var(--font-paragraph);
 }
 
+/* Knoppen */
+#knoppen {
+  padding: 3em 0em 3em 0em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+/* Linkje */
 a {
   font-size: clamp(1rem, 1rem + 0vw, 1rem);
   line-height: 1.5em;
   font-family: var(--font-link);
+  color: var(--darkgreen);
 }
 
 a:hover {
   color:#ff8d06;
 }
 
+/* Knop */
+
+/* Knop oranje */
+a.btn-oranje {
+  align-self: baseline;
+  background-color: var(--orange);
+  color: var(--beige);
+  padding: 0.7em 1.4em;
+  border-radius: 100px;
+  text-decoration: none;
+  gap: 0.5em;
+  transition: ease-in-out .2s;
+  font-weight: 600;
+  align-items: center;
+  display: inline-flex;
+  transition: transform .2s ease-in-out;
+  font-size: clamp(1rem, 1rem + 0vw, 1rem);
+}
+
+.btn-oranje img {
+  align-items: center;
+  width: 0.9em;
+}
+
+a.btn-oranje:hover {
+  background-color: var(--lightgreen);
+  transition: transform ease-in-out .2s;
+  transform: scale(1.05);
+}
+
+/* Knop bruin */
+a.btn-bruin {
+  align-self: baseline;
+  background-color: var(--brown);
+  color: var(--beige);
+  padding: 0.7em 1.4em;
+  border-radius: 100px;
+  text-decoration: none;
+  gap: 0.5em;
+  transition: ease-in-out .2s;
+  font-weight: 600;
+  align-items: center;
+  display: inline-flex;
+  transition: transform .2s ease-in-out;
+  font-size: clamp(1rem, 1rem + 0vw, 1rem);
+}
+
+.btn-bruin img {
+  align-items: center;
+  width: 0.9em;
+}
+
+a.btn-bruin:hover {
+  background-color: var(--lightgreen);
+  transition: transform ease-in-out .2s;
+  transform: scale(1.05);
+}
+
+/* Knop groen */
+a.btn-groen {
+  align-self: baseline;
+  background-color: var(--lightgreen);
+  color: var(--beige);
+  padding: 0.7em 1.4em;
+  border-radius: 100px;
+  text-decoration: none;
+  gap: 0.5em;
+  transition: ease-in-out .2s;
+  font-weight: 600;
+  align-items: center;
+  display: inline-flex;
+  transition: transform .2s ease-in-out;
+  font-size: clamp(1rem, 1rem + 0vw, 1rem);
+}
+
+.btn-groen img {
+  align-items: center;
+  width: 0.9em;
+}
+
+a.btn-groen:hover {
+  background-color: var(--orange);
+  transition: transform ease-in-out .2s;
+  transform: scale(1.05);
+}
+
+/* Knop beige */
+a.btn-beige {
+  align-self: baseline;
+  background-color: var(--beige);
+  color: var(--lightgreen);
+  padding: 0.7em 1.4em;
+  border-radius: 100px;
+  text-decoration: none;
+  gap: 0.5em;
+  transition: ease-in-out .2s;
+  font-weight: 600;
+  align-items: center;
+  display: inline-flex;
+  transition: transform .2s ease-in-out;
+  font-size: clamp(1rem, 1rem + 0vw, 1rem);
+}
+
+.btn-beige svg {
+  align-items: center;
+  width: 0.9em;
+}
+
+.btn-beige:hover path {
+  fill: var(--beige) !important;
+}
+
+a.btn-beige:hover {
+  color: var(--beige);
+  background-color: var(--brown);
+  transition: transform ease-in-out .2s;
+  transform: scale(1.05);
+}
+
+/* Submit knop */
+button {
+   align-self: baseline;
+   background-color: var(--orange);
+   color: var(--beige);
+   padding: 0.7em 1.4em;
+   border-radius: 100px;
+   text-decoration: none;
+   gap: 0.5em;
+   transition: ease-in-out .2s;
+   font-weight: 600;
+   align-items: center;
+   display: inline-flex;
+   transition: transform .2s ease-in-out;
+   border: none;
+   font-size: clamp(1rem, 1rem + 0vw, 1rem);
+}
+
 button:hover {
   color:#ff8d06;
+  transition: transform .2s ease-in-out;
+  transform: scale(1.05);
 }
 
-tr {
-  font-size: clamp(1rem, 1rem + 0vw, 1rem);
-  line-height: 1.5em;
-  font-family: var(--font-paragraph);
-}
 
-form {
-  font-size: clamp(1rem, 1rem + 0vw, 1rem);
-  line-height: 1.5em;
-  font-family: var(--font-paragraph);
-}
 
-label {
-  font-size: clamp(1rem, 1rem + 0vw, 1rem);
-  line-height: 1.5em;
-  font-family: var(--font-paragraph);
-}
 
-/* KLEUR */
+
+
+/* Kleuren */
 .color1 {
   background-color: #4e7141;
 }
@@ -179,15 +323,89 @@ label {
   background-color: #ff0000;
 }
 
-button {
-  margin-top: 1rem;
-  background-color: #4e7141;
-  color: #f9e9c2;
-  width: 8rem;
-  height: 2.5rem;
-  border-radius: 4rem;
-  border: none;
-}
-
 
 /* Formulier elementen */
+form {
+  display: grid;
+  gap: 1em;
+  background-color: var(--beige);
+  padding: 2em;
+  border-radius: var(--rounded);
+
+   @media screen and (min-width: 1000px) {
+     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+     padding-bottom: 45px;
+   }
+
+   @media screen and (min-width: 1600px) {
+     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+   }
+}
+
+label {
+  font-size: clamp(1rem, 1rem + 0vw, 1rem);
+  line-height: 1.5em;
+  font-family: var(--font-paragraph);
+  display: block;
+}
+
+input {
+  background-color: var(--text-off-white);
+  border: none;
+  border-radius: var(--rounded);
+  padding: .8em 1em;
+  width: 100%;
+  color: var(--darkgreen);
+  margin-top: .5em;
+
+  font-size: clamp(1rem, 1rem + 0vw, 1rem);
+  line-height: 1.5em;
+  font-family: var(--font-paragraph);
+  
+}
+
+input[type="submit"] {
+  background-color: var(--lightgreen);
+  color: white;
+  font-size: clamp(1rem, 1rem + 0vw, 1rem);
+  padding: 0.7em 1.4em;
+  border: none;
+  border-radius: var(--rounded);
+  cursor: pointer;
+  width: 60%;
+  transition: transform .2s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--orange);
+    transition: transform .2s ease-in-out;
+    transform: scale(1.05);
+}
+fieldset input {
+  width: 5%;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+fieldset input {
+  accent-color: var(--darkgreen);
+  width: 1.2em;
+  height: 1.2em;
+  margin: 0em 0.6em;
+}
+
+fieldset label {
+  align-items: center;
+  display: flex;
+}
+
+legend {
+  font-size: clamp(1rem, 1rem + 0vw, 1rem);
+  line-height: 1.5em;
+  font-family: var(--font-paragraph);
+  display: block;
+  margin-bottom: 0.8em;
+}
