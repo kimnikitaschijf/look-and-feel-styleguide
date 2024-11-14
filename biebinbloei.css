@@ -1,98 +1,150 @@
 * {
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
-     /* Kleuren */
-     --lightgreen: #4e7141;
-     --beige: #f9e9c2;
-     --orange: #ff8d06;
-     --brown: #491b02;
-     --darkgreen: #3c593e;
+  /* Kleuren */
+  --lightgreen: #4e7141;
+  --beige: #f9e9c2;
+  --orange: #ff8d06;
+  --brown: #491b02;
+  --darkgreen: #3c593e;
 
-     --text-off-white: #f7f7f7;
-     --text-darkgreen: #2C402D;
-     --error-red: #ff0000;
+  --text-off-white: #f7f7f7;
+  --text-darkgreen: #2C402D;
+  --error-red: #ff0000;
 
-     --button-active: #ff8d06;
-     --button-hover: #ff8d06;
+  --button-active: #ff8d06;
+  --button-hover: #ff8d06;
 
-     /* Fonts */
-     --font-header: "Poppins-Black", sans-serif;
-     --font-sub-header: 'Poppins-Bold', sans-serif;
-     --font-paragraph: 'Poppins-Medium', sans-serif;
-     --font-link: 'Poppins-Regular', sans-serif;
+  /* Fonts */
+  --font-header: "Poppins-Black", sans-serif;
+  --font-sub-header: 'Poppins-Bold', sans-serif;
+  --font-paragraph: 'Poppins-Medium', sans-serif;
+  --font-link: 'Poppins-Regular', sans-serif;
 }
 
 
 /* Fonts importeren */
 @font-face {
-    font-family: 'Poppins-Black';
-    src: url(./fonts/Poppins-Black.ttf) format('truetype');
-    font-style: normal;
-    font-weight: 900;
+  font-family: 'Poppins-Black';
+  src: url(./fonts/Poppins-Black.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 900;
 }
 
 @font-face {
-    font-family: 'Poppins-Bold';
-    src: url(./fonts/Poppins-Bold.ttf) format('truetype');
-    font-style: normal;
-    font-weight: 700;
+  font-family: 'Poppins-Bold';
+  src: url(./fonts/Poppins-Bold.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 700;
 }
 
 @font-face {
-    font-family: 'Poppins-Medium';
-    src: url(./fonts/Poppins/Poppins-Medium.ttf) format('truetype');
-    font-style: normal;
-    font-weight: 600;
+  font-family: 'Poppins-Medium';
+  src: url(./fonts/Poppins/Poppins-Medium.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 600;
 }
 
 @font-face {
-    font-family: 'Poppins-Regular';
-     src: url(./fonts/Poppins/Poppins-Regular.ttf) format('truetype');
-     font-style: normal;
-     font-weight: 400;
-    
+  font-family: 'Poppins-Regular';
+  src: url(./fonts/Poppins/Poppins-Regular.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 400;
+
 }
 
 /* heading elementen */
 h1 {
-    font-size: clamp(2.1875rem, 1.9669rem + 1.1765vw, 3.4375rem);
-    line-height: clamp(1.5, 4vw, 2);;
-    font-family: var(--font-header);
+  font-size: clamp(2.1875rem, 1.9669rem + 1.1765vw, 3.4375rem);
+  line-height: clamp(1.5, 4vw, 2);
+  ;
+  font-family: var(--font-header);
 }
 
 h2 {
-   font-size: clamp(1.875rem, 1.7096rem + 0.8824vw, 2.8125rem);
-    line-height: 1.5em;
-    font-family: var(--font-header);
+  font-size: clamp(1.875rem, 1.7096rem + 0.8824vw, 2.8125rem);
+  line-height: 1.5em;
+  font-family: var(--font-header);
 }
 
 h3 {
-    font-size: clamp(1.5625rem, 1.3971rem + 0.8824vw, 2.5rem);
-    line-height: 1.5em;
-    font-family: var(--font-header);
+  font-size: clamp(1.5625rem, 1.3971rem + 0.8824vw, 2.5rem);
+  line-height: 1.5em;
+  font-family: var(--font-header);
 }
 
 h4 {
-   font-size: clamp(1.25rem, 1.0846rem + 0.8824vw, 2.1875rem);
-    line-height: 1.5em;
-    font-family: var(--font-header);
+  font-size: clamp(1.25rem, 1.0846rem + 0.8824vw, 2.1875rem);
+  line-height: 1.5em;
+  font-family: var(--font-header);
 }
 
 h5 {
-    font-size: clamp(1.125rem, 0.9926rem + 0.7059vw, 1.875rem);
-    line-height: 1.5em;
-    font-family: var(--font-header);
+  font-size: clamp(1.125rem, 0.9926rem + 0.7059vw, 1.875rem);
+  line-height: 1.5em;
+  font-family: var(--font-header);
 }
 
 h6 {
-    font-size: clamp(1rem, 0.9007rem + 0.5294vw, 1.5625rem);
-    line-height: 1.5em;
-    font-family: var(--font-header);
+  font-size: clamp(1rem, 0.9007rem + 0.5294vw, 1.5625rem);
+  line-height: 1.5em;
+  font-family: var(--font-header);
 }
 
+p {
+  font-size: clamp(1rem, 1rem + 0vw, 1rem);
+  ;
+  line-height: 1.5em;
+  font-family: var(--font-paragraph);
+}
+
+ul {
+  font-size: clamp(1rem, 1rem + 0vw, 1rem);
+  ;
+  line-height: 1.5em;
+  font-family: var(--font-paragraph);
+}
+
+ol {
+  font-size: clamp(1rem, 1rem + 0vw, 1rem);
+  line-height: 1.5em;
+  font-family: var(--font-paragraph);
+}
+
+a {
+  font-size: clamp(1rem, 1rem + 0vw, 1rem);
+  line-height: 1.5em;
+  font-family: var(--font-link);
+}
+
+a:hover {
+  color:#ff8d06;
+}
+
+button:hover {
+  color:#ff8d06;
+}
+
+tr {
+  font-size: clamp(1rem, 1rem + 0vw, 1rem);
+  line-height: 1.5em;
+  font-family: var(--font-paragraph);
+}
+
+form {
+  font-size: clamp(1rem, 1rem + 0vw, 1rem);
+  line-height: 1.5em;
+  font-family: var(--font-paragraph);
+}
+
+label {
+  font-size: clamp(1rem, 1rem + 0vw, 1rem);
+  line-height: 1.5em;
+  font-family: var(--font-paragraph);
+}
 
 /* KLEUR */
 .color1 {
@@ -127,16 +179,7 @@ h6 {
   background-color: #ff0000;
 }
 
-
-
-
-
-
-
-
-
-
-button{
+button {
   margin-top: 1rem;
   background-color: #4e7141;
   color: #f9e9c2;
@@ -144,10 +187,6 @@ button{
   height: 2.5rem;
   border-radius: 4rem;
   border: none;
-}
-
-img{
-  width: 25%;
 }
 
 
