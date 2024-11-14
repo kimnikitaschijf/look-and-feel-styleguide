@@ -1,10 +1,10 @@
 # Bieb in Bloei - Styleguide
 Hier vind je de styleguide die gebruikt wordt door het team Bieb in Bloei van squad G1. In deze styleguide gaan we in op de styling van kleuren, typografie, formulieren, knoppen en afspraken.
 
+Linkje naar de styleguide: https://kimnikitaschijf.github.io/look-and-feel-styleguide/
+
 ## Kleuren
 We hebben de kleuren opgedeeld in 2 categoriëen: Elementkleuren & tekstkleuren. De elementkleuren bevatten een omschrijving van de kleur zoals 'lightgreen' en de tekstkleur wordt omschreven als: 'text-darkgreen'.
-
-Alle kleuren staan benoemd in onze styleguide: https://kimnikitaschijf.github.io/look-and-feel-styleguide/
 
 <img width="566" alt="image" src="https://github.com/user-attachments/assets/ec1a6a04-d15d-440e-938d-3c0fb85f5a9d">
 
