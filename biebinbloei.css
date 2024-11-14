@@ -4,9 +4,21 @@
 
 /* Kleuren */
 .color-example {
-    background-color: #bada55;
+    --lightgreen: #4e7141;
+    --beige: #f9e9c2;
+	--orange: #ff8d06;
+	--brown: #491b02;
+	--darkgreen: #3c593e;
+	--text-off-white: #f7f7f7;
+	--text-darkgreen: #2C402D;
+	--error-red: #ff0000;
+    --button-active: #ff8d06;
+    --button-hover: #ff8d06;
 }
 
+.color1 {
+    background-color: #4e7141;
+}
 /* Typografie */
 
 
