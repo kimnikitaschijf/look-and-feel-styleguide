@@ -34,8 +34,8 @@ De knoppen hebben we opgedeeld in 4 verschillende kleuren: Bruin, oranje, beige 
 ## Afspraken/overeenkomsten
 Dit zijn de afgesproken regels m.b.t de stylesheet en het documenteren van classes in ieders individuele document:
 1. Als je iets heb aangepast in de stylesheet overleg eerst met je teamleden voordat je deze code pusht naar Github. Dit zorgt ervoor dat je conflicten voorkomt.
-2. Zodra je een commit wilt pushen, schrijf je kort & duidelijk welke werkzaamheden je hebt uitgevoerd met je naam erachter. Op deze manier zorg je ervoor dat je bij de commits overzichtelijk wordt weergegeven wie welke commits heeft geschreven.
-3. Iedereen luistert naar elkaar en respecteert elkaars mening.
+2. Zodra je een commit wilt pushen, schrijf je kort & duidelijk welke werkzaamheden je hebt uitgevoerd met je naam erachter. Op deze manier zorg je ervoor dat bij de commits overzichtelijk wordt weergegeven wie welke commits heeft geschreven.
+4. Iedereen luistert naar elkaar en respecteert elkaars mening.
 
 ## -Licentie
 
