@@ -1,29 +1,104 @@
-/* Schrijf hier de verschillende stijlen, die gedeeld gaan
-   worden door jullie projecten */
-
-
-/* Kleuren */
-.color-example {
-    --lightgreen: #4e7141;
-    --beige: #f9e9c2;
-	--orange: #ff8d06;
-	--brown: #491b02;
-	--darkgreen: #3c593e;
-	--text-off-white: #f7f7f7;
-	--text-darkgreen: #2C402D;
-	--error-red: #ff0000;
-    --button-active: #ff8d06;
-    --button-hover: #ff8d06;
+* {
+    box-sizing: border-box;
 }
 
-.color1 {
-    background-color: #4e7141;
+.body {
+     /* Kleuren */
+     --lightgreen: #4e7141;
+     --beige: #f9e9c2;
+     --orange: #ff8d06;
+     --brown: #491b02;
+     --darkgreen: #3c593e;
+
+     --text-off-white: #f7f7f7;
+     --text-darkgreen: #2C402D;
+     --error-red: #ff0000;
+
+     --button-active: #ff8d06;
+     --button-hover: #ff8d06;
+
+     /* Fonts */
+     --font-header: 'Poppins-Black', sans-serif;
+     --font-sub-header: 'Poppins-Bold', sans-serif;
+     --font-paragraph: 'Poppins-Medium', sans-serif;
+     --font-link: 'Poppins-Regular', sans-serif;
+
+     /* Fontsizes */
+     --font-size-header-xl: 6rem;
+     --font-size-header-l: 4rem;
+     --font-size-header-m: 3rem;
+     --font-size-header-s: 2rem;
+     --font-size-header-xs: 1rem;
+     --font-size-header-xxs: 0.5rem;
+
+     --font-size-paragraph: 1rem;
 }
-/* Typografie */
+
+/* Fonts importeren */
+@font-face {
+    font-family: 'Poppins-Black';
+    src: local('Poppins Black'), local('Poppins-Black'), url('/fonts/Poppins/Poppins-Black.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: local('Poppins Bold'), local('Poppins-Bold'), url('/fonts/Poppins/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: local('Poppins Medium'), local('Poppins-Medium'), url('/fonts/Poppins/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: local('Poppins Regular'), local('Poppins-Regular'), url('/fonts/Poppins/Poppins-Regular.ttf');
+}
 
 
+h1 {
+    font-size: clamp(2.1875rem, 1.9669rem + 1.1765vw, 3.4375rem);
+    font-weight: 800;
+    line-height: 1.5em;
+    font-family: var(--font-header);
+}
 
-/* Formulier elementen */
+h2 {
+   font-size: clamp(1.875rem, 1.7096rem + 0.8824vw, 2.8125rem);
+   font-weight: 800;
+    line-height: 1.5em;
+    font-family: var(--font-header);
+}
+
+h3 {
+    font-size: clamp(1.875rem, 1.7096rem + 0.8824vw, 2.8125rem);
+    font-weight: 800;
+    line-height: 1.5em;
+    font-family: var(--font-header);
+}
+
+h4 {
+    font-size: clamp(1.875rem, 1.7096rem + 0.8824vw, 2.8125rem);
+    font-weight: 800;
+    line-height: 1.5em;
+    font-family: var(--font-header);
+}
+
+h5 {
+    font-size: clamp(1.875rem, 1.7096rem + 0.8824vw, 2.8125rem);
+    font-weight: 800;
+    line-height: 1.5em;
+    font-family: var(--font-header);
+}
+
+h6 {
+    font-size: clamp(1.875rem, 1.7096rem + 0.8824vw, 2.8125rem);
+    font-weight: 800;
+    line-height: 1.5em;
+    font-family: var(--font-header);
+}
+
+
 
 /* KLEUR */
 /* main colors */
@@ -104,3 +179,6 @@ button{
 img{
   width: 25%;
 }
+
+
+/* Formulier elementen */
