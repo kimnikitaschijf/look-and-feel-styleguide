@@ -268,10 +268,12 @@ a {
   line-height: 1.5em;
   font-family: var(--font-link);
   color: var(--darkgreen);
+  transition: transform ease-in-out .2s;
 }
 
 a:hover {
   color: #ff8d06;
+  transition: ease-in-out .2s;
 }
 
 /* Knop oranje */
