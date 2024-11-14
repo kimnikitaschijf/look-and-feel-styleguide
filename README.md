@@ -1,4 +1,4 @@
-# Styleguide
+# Bieb in Bloei - Styleguide
 Ontwerp en maak met een team een styleguide om te gebruiken voor een opdracht van een opdrachtgever.
 ## Kleuren
 We hebben de kleuren opgedeeld in 2 categoriëen: Elementkleuren & tekstkleuren. De elementkleuren bevatten een omschrijving van de kleur zoals 'lightgreen' en de tekstkleur heeft de tekst als beschrijving namelijk 'text-darkgreen'.
