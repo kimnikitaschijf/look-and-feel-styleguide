@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-.body {
+body {
      /* Kleuren */
      --lightgreen: #4e7141;
      --beige: #f9e9c2;
@@ -18,56 +18,54 @@
      --button-hover: #ff8d06;
 
      /* Fonts */
-     --font-header: 'Poppins-Black', sans-serif;
+     --font-header: "Poppins-Black", sans-serif;
      --font-sub-header: 'Poppins-Bold', sans-serif;
      --font-paragraph: 'Poppins-Medium', sans-serif;
      --font-link: 'Poppins-Regular', sans-serif;
-
-     /* Fontsizes */
-     --font-size-header-xl: 6rem;
-     --font-size-header-l: 4rem;
-     --font-size-header-m: 3rem;
-     --font-size-header-s: 2rem;
-     --font-size-header-xs: 1rem;
-     --font-size-header-xxs: 0.5rem;
-
-     --font-size-paragraph: 1rem;
 }
+
 
 /* Fonts importeren */
 @font-face {
     font-family: 'Poppins-Black';
-    src: local('Poppins Black'), local('Poppins-Black'), url('/fonts/Poppins/Poppins-Black.ttf');
+    src: url(./fonts/Poppins-Black.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 900;
 }
 
 @font-face {
     font-family: 'Poppins-Bold';
-    src: local('Poppins Bold'), local('Poppins-Bold'), url('/fonts/Poppins/Poppins-Bold.ttf');
+    src: url(./fonts/Poppins-Bold.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 700;
 }
 
 @font-face {
     font-family: 'Poppins-Medium';
-    src: local('Poppins Medium'), local('Poppins-Medium'), url('/fonts/Poppins/Poppins-Medium.ttf');
+    src: url(./fonts/Poppins/Poppins-Medium.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 600;
 }
 
 @font-face {
     font-family: 'Poppins-Regular';
-    src: local('Poppins Regular'), local('Poppins-Regular'), url('/fonts/Poppins/Poppins-Regular.ttf');
+     src: url(./fonts/Poppins/Poppins-Regular.ttf) format('truetype');
+     font-style: normal;
+     font-weight: 400;
+    
 }
 
-
+/* heading elementen */
 h1 {
     font-size: clamp(2.1875rem, 1.9669rem + 1.1765vw, 3.4375rem);
-    font-weight: 800;
     line-height: 1.5em;
     font-family: var(--font-header);
 }
 
 h2 {
    font-size: clamp(1.875rem, 1.7096rem + 0.8824vw, 2.8125rem);
-   font-weight: 800;
     line-height: 1.5em;
-    font-family: var(--font-header);
+    font-family: var(--font-sub-header);
 }
 
 h3 {
@@ -150,21 +148,6 @@ h6 {
 
 
 
-h1, h2, h3, h4, h5, h6, p{
-  font-family: "poppins", sans-serif;
-}
-
-h1 {
-  font-family: "poppins-black", sans-serif;
-}
-
-h2 {
-  font-family: "poppins-bold", sans-serif;
-}
-
-h3, h4, h5, h6 {
-  font-family: "poppins-medium", sans-serif;
-}
 
 button{
   margin-top: 1rem;
