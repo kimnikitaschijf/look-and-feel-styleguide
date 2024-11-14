@@ -36,6 +36,12 @@ Dit zijn de afgesproken regels m.b.t de stylesheet en het documenteren van class
 1. Als je iets heb aangepast in de stylesheet overleg eerst met je teamleden voordat je deze code pusht naar Github. Dit zorgt ervoor dat je conflicten voorkomt.
 2. Zodra je een commit wilt pushen, schrijf je kort & duidelijk welke werkzaamheden je hebt uitgevoerd met je naam erachter. Op deze manier zorg je ervoor dat bij de commits overzichtelijk wordt weergegeven wie welke commits heeft geschreven.
 4. Iedereen luistert naar elkaar en respecteert elkaars mening.
+5. We houden ons aan de besproken class namen. (zie voorbeeld)
+
+Voorbeeld benaming classes:
+<br>
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/f7166e8e-7e22-46ac-b4ef-d795c021c749">
+
 
 ## -Licentie
 
