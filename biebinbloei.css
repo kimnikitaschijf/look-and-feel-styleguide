@@ -63,6 +63,12 @@ body {
 
 }
 
+/* Header */
+header a {
+  height: 3em;
+  display: block;
+}
+
 /* Kleuren */
 .kleur-beschrijving p {
   margin: 0;
