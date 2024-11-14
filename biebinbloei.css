@@ -121,11 +121,47 @@ a {
 }
 
 a:hover {
-  color:#ff8d06;
+  color: #ff8d06;
+}
+
+button {
+  margin-top: 1rem;
+  background-color: #4e7141;
+  color: #f9e9c2;
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 4rem;
+  border: none;
+  transition: transform 0.3s ease-in-out;
 }
 
 button:hover {
-  color:#ff8d06;
+  color: #ff8d06;
+  background-color: #f7f7f7;
+  transition: 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+
+/* incompleet? */
+.button-icon {
+  margin-top: 1rem;
+  background-color: #4e7141;
+  color: #f9e9c2;
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 4rem;
+  border: none;
+  transition: transform 0.3s ease-in-out;
+  padding: 1em;
+  text-decoration: none;
+  gap: 0.5em;
+  display: flex;
+  flex-direction: row;
+}
+
+/* WERKT NIET!! */
+a.button-icon img {
+  width: 20%;
 }
 
 tr {
@@ -145,6 +181,7 @@ label {
   line-height: 1.5em;
   font-family: var(--font-paragraph);
 }
+
 
 /* KLEUR */
 .color1 {
@@ -179,15 +216,6 @@ label {
   background-color: #ff0000;
 }
 
-button {
-  margin-top: 1rem;
-  background-color: #4e7141;
-  color: #f9e9c2;
-  width: 8rem;
-  height: 2.5rem;
-  border-radius: 4rem;
-  border: none;
-}
 
 
 /* Formulier elementen */
