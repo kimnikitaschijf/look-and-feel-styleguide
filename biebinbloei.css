@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -97,54 +98,44 @@ h6 {
 }
 
 
-
 /* KLEUR */
-/* main colors */
-.main-color-green{
+.color1 {
   background-color: #4e7141;
 }
 
-.main-color-beige{
+.color2 {
   background-color: #f9e9c2;
 }
 
-.main-color-orange{
+.color3 {
   background-color: #ff8d06;
 }
 
-.main-color-brown{
+.color4 {
   background-color: #491b02;
-  color: #f9e9c2;
 }
-/* extra colors */
-.darkgreen{
+
+.color5 {
   background-color: #3c593e;
 }
 
-.text-off-white{
+.color6 {
   background-color: #f7f7f7;
 }
 
-.text-darkgreen{
+.color7 {
   background-color: #2C402D;
-  color: #f9e9c2;
 }
 
-.darkgreen{
- background-color: #3c593e;
-}
-
-.error-red{
+.color8 {
   background-color: #ff0000;
 }
-/* button colors */
-.button-active-orange{
-  background-color: #ff8d06;
-}
 
-.button-hover-orange{
-  background-color: #ff8d06;
-}
+
+
+
+
+
 
 
 
