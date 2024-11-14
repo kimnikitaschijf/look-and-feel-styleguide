@@ -9,7 +9,7 @@ We hebben de kleuren opgedeeld in 2 categoriëen: Elementkleuren & tekstkleuren.
 <img width="566" alt="image" src="https://github.com/user-attachments/assets/ec1a6a04-d15d-440e-938d-3c0fb85f5a9d">
 
 ## Typografie
-Over de hele websites wordt er gebruik gemaakt van het font 'Poppins'. De fonts worden ingeladen doormiddel van font-faces. Hierin staan verschillende fontweights: Black, Bold, Medium, Regular. Voor de fontsizes maken we gebruik van een clamp. Op deze manier kunnen we de heading en overige tekst elementen responsive laten meeschalen waardoor we geen onnodige media queries hoeven te schrijven.
+Over de hele website heen wordt er gebruik gemaakt van het font 'Poppins'. De font wordt ingeladen doormiddel van font-faces. Hierin staan verschillende fontweights: Black, Bold, Medium, Regular. Voor de fontsizes maken we gebruik van een clamp. Op deze manier kunnen we de heading en overige tekst elementen responsive laten meeschalen waardoor we geen onnodige media queries hoeven te schrijven.
 
 - Tekstuele elementen
 <img width="146" alt="image" src="https://github.com/user-attachments/assets/034ea7ce-1514-42ff-87f1-8c04df990a22">
