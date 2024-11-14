@@ -10,7 +10,7 @@ kleurgebruik + hex code<br>
 ![image](https://github.com/user-attachments/assets/b9a60d7c-e11f-4567-b48b-ec33d35f8044)
 
 # -Typography
-bij headers gebruiken we de fontsize clamp()
+bij headers gebruiken we de fontsize clamp()<br> + verschillende kleurencombinaties
 ![image](https://github.com/user-attachments/assets/6cae8754-0c2e-478d-86cb-b9bc7b2bba7c)
 
 # -Forms
