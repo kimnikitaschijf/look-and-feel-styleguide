@@ -28,9 +28,9 @@ De knoppen hebben we opgedeeld in 4 verschillende kleuren: Bruin, oranje, beige 
 ## Afspraken/overeenkomsten
 Dit zijn de afgesproken regels m.b.t de stylesheet en het documenteren van classes in ieders individuele document:
 1. Als je iets heb aangepast in de stylesheet overleg eerst met je teamleden voordat je deze code pusht naar Github. Dit zorgt ervoor dat je conflicten voorkomt.
-2.Bij elke commit schrijf je de eerste letter van je naam en in het kort wat je hebt gedaan. Bijvoorbeeld: A - hier de omschrijving. Zo weten we wie welke commits heeft gedaan.
-5. Iedereen luistert naar elkaar en respecteert elkaars mening.
-6. We houden ons aan de besproken class namen. (zie voorbeeld)
+2. Bij elke commit schrijf je de eerste letter van je naam en in het kort wat je hebt gedaan. Bijvoorbeeld: A - hier de omschrijving. Zo weten we wie welke commits heeft gedaan.
+3. Iedereen luistert naar elkaar en respecteert elkaars mening.
+4. We houden ons aan de besproken class namen. (zie voorbeeld)
 
 Voorbeeld benaming classes:
 <br>
