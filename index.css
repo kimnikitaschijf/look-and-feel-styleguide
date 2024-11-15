@@ -1,14 +1,18 @@
 /* Generieke stijlen, waarschijnlijk hoeven jullie deze niet aan te passen */
 
 @layer styleguide {
-  html, body {
+
+  html,
+  body {
     scroll-behavior: smooth;
   }
+
   body {
     max-width: 40em;
     margin: auto;
     background: #fff;
   }
+
   nav:not([class]),
   h1:not([class]),
   h2:not([class]),
@@ -17,30 +21,57 @@
     font-family: sans-serif;
     line-height: 1.5;
   }
-  p:not([class]) > code:not([class]) {
+
+  p:not([class])>code:not([class]) {
     display: block;
   }
-  nav:not([class]) > a {
+
+  nav:not([class])>a {
     padding: .5em;
     border: 1px solid;
     color: inherit;
     text-decoration: none;
-    &:hover, &:focus {
+
+    &:hover,
+    &:focus {
       text-decoration: underline;
     }
   }
+
   figure:not([class]) {
     display: grid;
     grid-template-columns: 6rem 1fr;
     align-items: center;
     gap: 1rem;
     margin: 1rem 0;
-    > code {
+
+    >code {
       display: grid;
       place-items: center;
       border-radius: 50%;
       aspect-ratio: 1;
       background: #ccc;
     }
+  }
+
+  /* Nav knoppen */
+  header a {
+    height: 3em;
+    display: block;
+  }
+
+  .kleur-beschrijving p {
+    margin: 0;
+    color: rgb(173, 173, 173);
+    font-size: 0.9em;
+  }
+
+  figcaption p:first-of-type {
+    color: var(--text-darkgreen);
+    font-weight: bold;
+  }
+
+  #kleur h2 {
+    padding: 1em 0em 0em 0em;
   }
 }

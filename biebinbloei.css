@@ -3,6 +3,11 @@
   scroll-behavior: smooth;
 }
 
+*:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--orange);
+}
+
 body {
   /* Kleuren */
   --lightgreen: #4e7141;
@@ -26,11 +31,6 @@ body {
 
   /* Decoration */
   --rounded: 2em; /* Gebruiken voor ronde vormen */
-}
-
-*:focus-visible {
-  outline: none;
-  box-shadow: 0 0 0 3px var(--orange);
 }
 
 /* @font-face (typografie) */
@@ -63,28 +63,7 @@ body {
 
 }
 
-/* Header */
-header a {
-  height: 3em;
-  display: block;
-}
-
 /* Kleuren */
-.kleur-beschrijving p {
-  margin: 0;
-  color: rgb(173, 173, 173);
-  font-size: 0.9em;
-}
-
-figcaption p:first-of-type {
-  color: var(--text-darkgreen);
-  font-weight: bold;
-}
-
-#kleur h2 {
-  padding: 1em 0em 0em 0em;
-}
-
 .color1 {
   background-color: var(--lightgreen);
 }
@@ -180,7 +159,6 @@ ol {
   line-height: 1.5em;
   font-family: var(--font-paragraph);
 }
-
 
 /* Formulier elementen */
 form {
@@ -281,7 +259,6 @@ legend {
 }
 
 /* Knoppen in alle kleuren */
-
 /* Linkje */
 a {
   font-size: clamp(1rem, 1rem + 0vw, 1rem);
