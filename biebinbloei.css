@@ -86,36 +86,36 @@ figcaption p:first-of-type {
 }
 
 .color1 {
-  background-color: #4e7141;
+  background-color: var(--lightgreen);
 }
 
 .color2 {
-  background-color: #f9e9c2;
+  background-color: var(--beige);
 }
 
 .color3 {
-  background-color: #ff8d06;
+  background-color: var(--orange);
 }
 
 .color4 {
-  background-color: #491b02;
+  background-color: var(--brown);
 }
 
 .color5 {
-  background-color: #3c593e;
+  background-color: var(--darkgreen);
 }
 
 .color6 {
-  background-color: #fefefe;
+  background-color: var(--text-off-white);
   border: 1px solid rgb(205, 205, 205);
 }
 
 .color7 {
-  background-color: #2C402D;
+  background-color: var(--text-darkgreen);
 }
 
 .color8 {
-  background-color: #ff0000;
+  background-color: var(--error-red);
 }
 
 /* Heading elements */
