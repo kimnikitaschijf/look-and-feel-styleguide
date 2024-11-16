@@ -3,11 +3,6 @@
   scroll-behavior: smooth;
 }
 
-*:focus-visible {
-  outline: none;
-  box-shadow: 0 0 0 3px var(--orange);
-}
-
 body {
   /* Kleuren */
   --lightgreen: #4e7141;
@@ -31,6 +26,11 @@ body {
 
   /* Decoration */
   --rounded: 2em; /* Gebruiken voor ronde vormen */
+}
+
+*:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--orange);
 }
 
 /* @font-face (typografie) */
@@ -63,7 +63,28 @@ body {
 
 }
 
+/* Header */
+header a {
+  height: 3em;
+  display: block;
+}
+
 /* Kleuren */
+.kleur-beschrijving p {
+  margin: 0;
+  color: rgb(173, 173, 173);
+  font-size: 0.9em;
+}
+
+figcaption p:first-of-type {
+  color: var(--text-darkgreen);
+  font-weight: bold;
+}
+
+#kleur h2 {
+  padding: 1em 0em 0em 0em;
+}
+
 .color1 {
   background-color: var(--lightgreen);
 }
@@ -98,45 +119,40 @@ body {
 }
 
 /* Heading elements */
-#typografie h1, h2, h3, h4, h5, H6{
-  margin: 0;
+h1, h2, h3, h4, h5, H6{
+  font-family: var(--font-header);
+  margin: 0.5em 0em;
   padding: 0;
 }
 
 h1 {
-font-size: clamp(2.1875rem, 1.9022rem + 1.3043vw, 2.725rem);
-  line-height: clamp(1.5, 4vw, 2);
-  font-family: var(--font-header);
+  font-size: clamp(2.1875rem, 1.9022rem + 1.3043vw, 2.725rem);
+  line-height: 115%;
 }
 
 h2 {
   font-size: clamp(1.875rem, 1.7096rem + 0.8824vw, 2.8125rem);
-  line-height: 1.5em;
-  font-family: var(--font-header);
+  line-height: 110%;
 }
 
 h3 {
   font-size: clamp(1.5625rem, 1.3971rem + 0.8824vw, 2.5rem);
-  line-height: 1.5em;
-  font-family: var(--font-header);
+  line-height: 115%;
 }
 
 h4 {
   font-size: clamp(1.25rem, 1.0846rem + 0.8824vw, 2.1875rem);
-  line-height: 1.5em;
-  font-family: var(--font-header);
+  line-height: 118%;
 }
 
 h5 {
   font-size: clamp(1.125rem, 0.9926rem + 0.7059vw, 1.875rem);
-  line-height: 1.5em;
-  font-family: var(--font-header);
+  line-height: 118%;
 }
 
 h6 {
   font-size: clamp(1rem, 0.9007rem + 0.5294vw, 1.5625rem);
-  line-height: 1.5em;
-  font-family: var(--font-header);
+  line-height: 118%;
 }
 
 /* Paragraph text element */
@@ -159,6 +175,7 @@ ol {
   line-height: 1.5em;
   font-family: var(--font-paragraph);
 }
+
 
 /* Formulier elementen */
 form {
@@ -259,6 +276,7 @@ legend {
 }
 
 /* Knoppen in alle kleuren */
+
 /* Linkje */
 a {
   font-size: clamp(1rem, 1rem + 0vw, 1rem);
