@@ -28,15 +28,30 @@ De knoppen hebben we opgedeeld in 4 verschillende kleuren: Bruin, oranje, beige 
 ## Afspraken/overeenkomsten
 Dit zijn de afgesproken regels m.b.t de stylesheet en het documenteren van classes in ieders individuele document:
 1. Als je iets heb aangepast in de stylesheet overleg eerst met je teamleden voordat je deze code pusht naar Github. Dit zorgt ervoor dat je conflicten voorkomt.
-2. Zodra je een commit wilt pushen, schrijf je kort & duidelijk welke werkzaamheden je hebt uitgevoerd met je naam erachter. Op deze manier zorg je ervoor dat bij de commits overzichtelijk wordt weergegeven wie welke commits heeft geschreven.
-4. Iedereen luistert naar elkaar en respecteert elkaars mening.
-5. We houden ons aan de besproken class namen. (zie voorbeeld)
+2. Bij elke commit schrijf je de eerste letter van je naam en in het kort wat je hebt gedaan. Bijvoorbeeld: A - hier de omschrijving. Zo weten we wie welke commits heeft gedaan.
+3. Iedereen luistert naar elkaar en respecteert elkaars mening.
+4. We houden ons aan de besproken class namen. (zie voorbeeld)
 
 Voorbeeld benaming classes:
 <br>
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/f7166e8e-7e22-46ac-b4ef-d795c021c749">
 
+Wanneer je een kleur wilt toevoegen kan je deze variaties gebruiken:
+```css
+/* Kleuren */
+  --lightgreen: #4e7141;
+  --beige: #f9e9c2;
+  --orange: #ff8d06;
+  --brown: #491b02;
+  --darkgreen: #3c593e;
 
+  --text-off-white: #fefefe;
+  --text-darkgreen: #2C402D;
+  --error-red: #ff0000;
+
+  --button-active: #ff8d06;
+  --button-hover: #ff8d06;
+```
 ## -Licentie
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
