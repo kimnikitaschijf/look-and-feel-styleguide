@@ -124,6 +124,7 @@ h1, h2, h3, h4, h5, H6{
   font-family: var(--font-header);
   margin: 0.5em 0em;
   padding: 0;
+  color: var(--text-darkgreen);
 }
 
 h1 {
@@ -250,6 +251,11 @@ fieldset input {
   width: 5%;
 }
 
+ input:user-invalid {
+   border: 2px solid red;
+   background-color: #ffe6e6;
+ }
+
 fieldset label {
   align-items: center;
   display: flex;
@@ -261,6 +267,10 @@ legend {
   font-family: var(--font-paragraph);
   display: block;
   margin-bottom: 0.8em;
+}
+
+.req {
+  color: var(--error-red);
 }
 
 /* Knoppen */
