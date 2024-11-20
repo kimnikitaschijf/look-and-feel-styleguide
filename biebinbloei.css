@@ -26,6 +26,7 @@ body {
 
   /* Decoration */
   --rounded: 2em; /* Gebruiken voor ronde vormen */
+  --image-gradient: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%); /* Gebruiken voor schaduw gradient over image heen */
 }
 
 *:focus-visible {
