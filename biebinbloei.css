@@ -250,6 +250,11 @@ fieldset input {
   width: 5%;
 }
 
+ input:user-invalid {
+   border: 2px solid red;
+   background-color: #ffe6e6;
+ }
+
 fieldset label {
   align-items: center;
   display: flex;
