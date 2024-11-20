@@ -263,6 +263,10 @@ legend {
   margin-bottom: 0.8em;
 }
 
+.req {
+  color: var(--error-red);
+}
+
 /* Knoppen */
 #knoppen {
   padding: 3em 0em 3em 0em;
