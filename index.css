@@ -13,6 +13,12 @@
     background: #fff;
   }
 
+  /* Header */
+header a {
+  height: 3em;
+  display: block;
+}
+
   nav:not([class]),
   h1:not([class]),
   h2:not([class]),
