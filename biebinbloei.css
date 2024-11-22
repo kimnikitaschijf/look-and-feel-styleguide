@@ -116,7 +116,6 @@ figcaption p:first-of-type {
 
 .color6 {
   background-color: var(--primary-text-color);
-  border: 1px solid rgb(205, 205, 205);
 }
 
 .color7 {
