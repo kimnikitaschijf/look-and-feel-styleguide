@@ -6,22 +6,23 @@
 body {
   /* Kleuren */
 
-  /* light green */
-  --secondary-background-color: #4e7141; 
   /* beige */
   --primary-background-color: #f9e9c2;
+  /* light green */
+  --secondary-background-color: #4e7141;
+  /* darkgreen */
+  --third-background-color: #3c593e;
   /* orange */
   --primary-highlight-color: #ff8d06;
-/* brown */
+  /* brown */
   --secondary-highlight-color: #491b02;
-/* darkgreen */
---third-background-color: #3c593e;
 
-/* text-off-white */
+
+  /* text-off-white */
   --primary-text-color: #fefefe;
-/* text-darkgreen */
- --secondary-text-color: #2C402D;
-/* red */
+  /* text-darkgreen */
+  --secondary-text-color: #2C402D;
+  /* red */
   --error-color: #ff0000;
 
   /* button orange */
@@ -36,8 +37,10 @@ body {
   --font-link: 'Poppins-Regular', sans-serif;
 
   /* Decoration */
-  --rounded: 2em; /* Gebruiken voor ronde vormen */
-  --image-gradient: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%); /* Gebruiken voor schaduw gradient over image heen */
+  --rounded: 2em;
+  /* Gebruiken voor ronde vormen */
+  --image-gradient: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+  /* Gebruiken voor schaduw gradient over image heen */
 }
 
 *:focus-visible {
@@ -125,7 +128,12 @@ figcaption p:first-of-type {
 }
 
 /* Heading elements */
-h1, h2, h3, h4, h5, H6{
+h1,
+h2,
+h3,
+h4,
+h5,
+H6 {
   font-family: var(--font-header);
   color: var(--text-darkgreen);
   margin: 0.5em 0em;
@@ -256,10 +264,10 @@ fieldset input {
   width: 5%;
 }
 
- input:user-invalid {
-   border: 2px solid red;
-   background-color: #ffe6e6;
- }
+input:user-invalid {
+  border: 2px solid red;
+  background-color: #ffe6e6;
+}
 
 fieldset label {
   align-items: center;
