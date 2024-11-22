@@ -116,6 +116,7 @@ figcaption p:first-of-type {
 /* Heading elements */
 h1, h2, h3, h4, h5, H6{
   font-family: var(--font-header);
+  color: var(--text-darkgreen);
   margin: 0.5em 0em;
   padding: 0;
 }
