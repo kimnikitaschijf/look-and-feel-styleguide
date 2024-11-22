@@ -45,7 +45,7 @@ body {
 
 *:focus-visible {
   outline: none;
-  box-shadow: 0 0 0 3px var(--orange);
+  box-shadow: 0 0 0 3px var(--primary-highlight-color);
 }
 
 /* @font-face (typografie) */
@@ -86,7 +86,7 @@ body {
 }
 
 figcaption p:first-of-type {
-  color: var(--text-darkgreen);
+  color: var(--secondary-text-color);
   font-weight: bold;
 }
 
@@ -95,36 +95,36 @@ figcaption p:first-of-type {
 }
 
 .color1 {
-  background-color: var(--lightgreen);
+  background-color: var(--secondary-background-color);
 }
 
 .color2 {
-  background-color: var(--beige);
+  background-color: var(--primary-background-color);
 }
 
 .color3 {
-  background-color: var(--orange);
+  background-color: var(--primary-highlight-color);
 }
 
 .color4 {
-  background-color: var(--brown);
+  background-color: var(--secondary-highlight-color);
 }
 
 .color5 {
-  background-color: var(--darkgreen);
+  background-color: var(--third-background-color);
 }
 
 .color6 {
-  background-color: var(--text-off-white);
+  background-color: var(--primary-text-color);
   border: 1px solid rgb(205, 205, 205);
 }
 
 .color7 {
-  background-color: var(--text-darkgreen);
+  background-color: var(--secondary-text-color);
 }
 
 .color8 {
-  background-color: var(--error-red);
+  background-color: var(--error-color);
 }
 
 /* Heading elements */
@@ -135,7 +135,7 @@ h4,
 h5,
 H6 {
   font-family: var(--font-header);
-  color: var(--text-darkgreen);
+  color: var(--secondary-text-color);
   margin: 0.5em 0em;
   padding: 0;
 }
@@ -195,7 +195,7 @@ ol {
 form {
   display: grid;
   gap: 1em;
-  background-color: var(--beige);
+  background-color: var(--primary-background-color);
   padding: 2em;
   border-radius: var(--rounded);
 
@@ -217,12 +217,12 @@ label {
 }
 
 input {
-  background-color: var(--text-off-white);
+  background-color: var(--primary-text-color);
   border: none;
   border-radius: var(--rounded);
   padding: .8em 1em;
   width: 100%;
-  color: var(--darkgreen);
+  color: var(--third-background-color);
   margin-top: .5em;
 
   font-size: clamp(1rem, 1rem + 0vw, 1rem);
@@ -233,7 +233,7 @@ input {
 
 /* Verzenden knop formulier */
 input[type="submit"] {
-  background-color: var(--lightgreen);
+  background-color: var(--secondary-background-color);
   color: white;
   font-size: clamp(1rem, 1rem + 0vw, 1rem);
   padding: 0.7em 1.4em;
@@ -245,7 +245,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: var(--orange);
+  background-color: var(--primary-highlight-color);
   transition: transform .2s ease-in-out;
   transform: scale(1.05);
 }
@@ -257,7 +257,7 @@ fieldset {
 }
 
 fieldset input {
-  accent-color: var(--darkgreen);
+  accent-color: var(--third-background-color);
   width: 1.2em;
   height: 1.2em;
   margin: 0em 0.6em;
@@ -283,7 +283,7 @@ legend {
 }
 
 .req {
-  color: var(--error-red);
+  color: var(--error-color);
 }
 
 /* Knoppen */
@@ -305,7 +305,7 @@ a {
   font-size: clamp(1rem, 1rem + 0vw, 1rem);
   line-height: 1.5em;
   font-family: var(--font-link);
-  color: var(--darkgreen);
+  color: var(--third-background-color);
   transition: transform ease-in-out .2s;
 }
 
@@ -317,8 +317,8 @@ a:hover {
 /* Knop oranje */
 a.btn-oranje {
   align-self: baseline;
-  background-color: var(--orange);
-  color: var(--beige);
+  background-color: var(--primary-highlight-color);
+  color: var(--primary-background-color);
   padding: 0.7em 1.4em;
   border-radius: 100px;
   text-decoration: none;
@@ -337,7 +337,7 @@ a.btn-oranje {
 }
 
 a.btn-oranje:hover {
-  background-color: var(--lightgreen);
+  background-color: var(--secondary-background-color);
   transition: transform ease-in-out .2s;
   transform: scale(1.05);
 }
@@ -345,8 +345,8 @@ a.btn-oranje:hover {
 /* Knop bruin */
 a.btn-bruin {
   align-self: baseline;
-  background-color: var(--brown);
-  color: var(--beige);
+  background-color: var(--secondary-highlight-color);
+  color: var(--primary-background-color);
   padding: 0.7em 1.4em;
   border-radius: 100px;
   text-decoration: none;
@@ -365,7 +365,7 @@ a.btn-bruin {
 }
 
 a.btn-bruin:hover {
-  background-color: var(--lightgreen);
+  background-color: var(--secondary-background-color);
   transition: transform ease-in-out .2s;
   transform: scale(1.05);
 }
@@ -373,8 +373,8 @@ a.btn-bruin:hover {
 /* Knop groen */
 a.btn-groen {
   align-self: baseline;
-  background-color: var(--lightgreen);
-  color: var(--beige);
+  background-color: var(--secondary-background-color);
+  color: var(--primary-background-color);
   padding: 0.7em 1.4em;
   border-radius: 100px;
   text-decoration: none;
@@ -393,7 +393,7 @@ a.btn-groen {
 }
 
 a.btn-groen:hover {
-  background-color: var(--orange);
+  background-color: var(--primary-highlight-color);
   transition: transform ease-in-out .2s;
   transform: scale(1.05);
 }
@@ -401,8 +401,8 @@ a.btn-groen:hover {
 /* Knop beige */
 a.btn-beige {
   align-self: baseline;
-  background-color: var(--beige);
-  color: var(--lightgreen);
+  background-color: var(--primary-background-color);
+  color: var(--secondary-background-color);
   padding: 0.7em 1.4em;
   border-radius: 100px;
   text-decoration: none;
@@ -421,12 +421,12 @@ a.btn-beige {
 }
 
 .btn-beige:hover path {
-  fill: var(--beige) !important;
+  fill: var(--primary-background-color) !important;
 }
 
 a.btn-beige:hover {
-  color: var(--beige);
-  background-color: var(--brown);
+  color: var(--primary-background-color);
+  background-color: var(--secondary-highlight-color);
   transition: transform ease-in-out .2s;
   transform: scale(1.05);
 }
@@ -435,8 +435,8 @@ a.btn-beige:hover {
 button.btn-verzenden {
   font-family: var(--font-paragraph);
   align-self: baseline;
-  background-color: var(--lightgreen);
-  color: var(--beige);
+  background-color: var(--secondary-background-color);
+  color: var(--primary-background-color);
   padding: 0.7em 1.4em;
   border-radius: 100px;
   text-decoration: none;
@@ -451,7 +451,7 @@ button.btn-verzenden {
 }
 
 button.btn-verzenden:hover {
-  background-color: var(--orange);
+  background-color: var(--primary-highlight-color);
   transition: transform ease-in-out .2s;
   transform: scale(1.05);
   padding: 0.7em 1.4em;
