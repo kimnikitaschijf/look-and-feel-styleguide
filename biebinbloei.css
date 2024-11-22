@@ -427,7 +427,7 @@ button.btn-verzenden {
   transition: transform .2s ease-in-out;
   border: none;
   font-size: clamp(1rem, 1rem + 0vw, 1rem);
-  width: 9.6em;
+  width: 9em;
 }
 
 button.btn-verzenden:hover {
