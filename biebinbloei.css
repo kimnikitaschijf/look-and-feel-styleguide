@@ -5,17 +5,28 @@
 
 body {
   /* Kleuren */
-  --lightgreen: #4e7141;
-  --beige: #f9e9c2;
-  --orange: #ff8d06;
-  --brown: #491b02;
-  --darkgreen: #3c593e;
 
-  --text-off-white: #fefefe;
-  --text-darkgreen: #2C402D;
-  --error-red: #ff0000;
+  /* light green */
+  --secondary-background-color: #4e7141; 
+  /* beige */
+  --primary-background-color: #f9e9c2;
+  /* orange */
+  --primary-highlight-color: #ff8d06;
+/* brown */
+  --secondary-highlight-color: #491b02;
+/* darkgreen */
+--third-background-color: #3c593e;
 
+/* text-off-white */
+  --primary-text-color: #fefefe;
+/* text-darkgreen */
+ --secondary-text-color: #2C402D;
+/* red */
+  --error-color: #ff0000;
+
+  /* button orange */
   --button-active: #ff8d06;
+  /* button orange hover */
   --button-hover: #ff8d06;
 
   /* Fonts */
