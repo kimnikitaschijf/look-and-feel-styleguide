@@ -127,6 +127,7 @@ figcaption p:first-of-type {
 /* Heading elements */
 h1, h2, h3, h4, h5, H6{
   font-family: var(--font-header);
+  color: var(--text-darkgreen);
   margin: 0.5em 0em;
   padding: 0;
 }
@@ -438,7 +439,7 @@ button.btn-verzenden {
   transition: transform .2s ease-in-out;
   border: none;
   font-size: clamp(1rem, 1rem + 0vw, 1rem);
-  width: 9.6em;
+  width: 9em;
 }
 
 button.btn-verzenden:hover {
