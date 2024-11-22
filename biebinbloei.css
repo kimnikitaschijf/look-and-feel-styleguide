@@ -64,12 +64,6 @@ body {
 
 }
 
-/* Header */
-header a {
-  height: 3em;
-  display: block;
-}
-
 /* Kleuren */
 .kleur-beschrijving p {
   margin: 0;
@@ -159,7 +153,7 @@ h6 {
 /* Paragraph text element */
 p {
   font-size: clamp(1rem, 1rem + 0vw, 1rem);
-  line-height: 150%;
+  line-height: 180%;
   font-family: var(--font-paragraph);
 }
 
@@ -419,6 +413,7 @@ a.btn-beige:hover {
 
 /* Submit knop */
 button.btn-verzenden {
+  font-family: var(--font-paragraph);
   align-self: baseline;
   background-color: var(--lightgreen);
   color: var(--beige);
@@ -432,7 +427,7 @@ button.btn-verzenden {
   transition: transform .2s ease-in-out;
   border: none;
   font-size: clamp(1rem, 1rem + 0vw, 1rem);
-  width: 9em;
+  width: 9.6em;
 }
 
 button.btn-verzenden:hover {
