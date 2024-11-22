@@ -126,6 +126,38 @@ figcaption p:first-of-type {
   background-color: var(--error-color);
 }
 
+.tekst1 {
+  color: var(--secondary-background-color);
+}
+
+.tekst2 {
+  color: var(--primary-background-color);
+}
+
+.tekst3 {
+  color: var(--primary-highlight-color);
+}
+
+.tekst4 {
+  color: var(--secondary-highlight-color);
+}
+
+.tekst5 {
+  color: var(--third-background-color);
+}
+
+.primary-text {
+  color: var(--primary-text-color);
+}
+
+.secondary-text {
+  color: var(--secondary-text-color);
+}
+
+.tekst8 {
+  color: var(--error-color);
+}
+
 /* Heading elements */
 h1,
 h2,
