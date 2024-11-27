@@ -44,8 +44,8 @@ body {
 }
 
 *:focus-visible {
-  outline: none;
-  box-shadow: 0 0 0 3px var(--primary-highlight-color);
+	outline: 3px dashed var(--primary-highlight-color);
+	outline-offset: 4px;
 }
 
 /* @font-face (typografie) */
